@@ -1,0 +1,80 @@
+section {
+  margin: 2rem 0;
+}
+
+.block__head h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #292929;
+}
+.blog__content--title h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  color: #2b2b2b;
+}
+.blog__content--excerpt p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1rem;
+  margin-bottom: 1rem;
+  color: #686868;
+}
+/* image size 750*750, wp thubnail mediam_large */
+.blog__thum {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin-right: 1.5rem;
+}
+.blog__thum img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog__single {
+  display: flex;
+  align-items: center;
+}
+.block__border {
+  border-bottom: 1px solid rebeccapurple;
+}
+
+/* Bootstrap Class Modify */
+.carousel-control-prev {
+  background: red;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+.carousel-control-next {
+  background: red;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  right: 2%;
+}
+
+#carouselTrending .carousel-indicators {
+  background: rebeccapurple;
+  margin-bottom: -15px;
+}
+
+.card {
+  border: 0;
+}
+
+#onyCategory img {
+  opacity: 0.2;
+}
