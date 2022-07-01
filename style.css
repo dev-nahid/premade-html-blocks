@@ -1,3 +1,12 @@
+:root {
+  --primary: #007bff;
+  --secondary: #ff005c;
+  --white: #ffffff;
+  --hColor: #252525;
+  --pColor: #878787;
+  --linkColor: #ea2b2b;
+}
+
 section {
   margin: 2rem 0;
 }
@@ -27,6 +36,10 @@ section {
   line-height: 1rem;
   margin-bottom: 1rem;
   color: #686868;
+}
+.blog__meta--tag a {
+  color: var(--linkColor);
+  text-decoration: none; /* no underline */
 }
 /* image size 750*750, wp thubnail mediam_large */
 .blog__thum {
