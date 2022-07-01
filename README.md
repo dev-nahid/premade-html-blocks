@@ -1,2 +1,2 @@
-# premade-html-blocks
-I'm developing premade blocks using bootstrap5 and custom css.
+# Premade Blocks
+All of premade blocks use Bootstrap5 and custom CSS, JS
